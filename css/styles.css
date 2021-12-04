@@ -851,6 +851,16 @@ img {
   justify-content: center;
 }
 
+.modal-title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
