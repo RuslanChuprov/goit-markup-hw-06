@@ -779,6 +779,37 @@ img {
   background-color: var(--accent-text-color);
 }
 
+.online {
+
+}
+
+.online-title {
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.online-button {
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 0;
+
+  background-color: var(--background-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+  transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1),
+  background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
 .backdrop {
   position: fixed;
   width: 100vw;
