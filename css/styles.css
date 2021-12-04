@@ -839,9 +839,17 @@ img {
   border-radius: 5px;
 }
 
-.modal-form-field {
+.modal-form {
   margin-top: 12px;
   margin-bottom: 20px;
+}
+
+.modal-form-field {
+  margin-bottom: 10px;
+}
+
+.modal-form-field:last-child {
+  margin-bottom: 0;
 }
 
 .modal-input-wrap {
@@ -903,6 +911,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 12px;
 }
 
 .is-hidden {
