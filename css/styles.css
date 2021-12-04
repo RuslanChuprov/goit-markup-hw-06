@@ -780,8 +780,13 @@ img {
 }
 
 .online {
-
+  margin-left: 93px;
 }
+
+.online-input {
+  background-color: transparent;
+}
+
 
 .online-title {
   color: var(--accent-color);
