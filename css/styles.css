@@ -21,6 +21,7 @@
   --social-link-color: #afb1b8;
   --button-shadow: rgba(0, 0, 0, 0.25);
   --footer-social-link-color: rgba(255, 255, 255, 0.1);
+  --input-form-border: rgba(255, 255, 255, 0.2);
   --time-duration: 500ms;
   --features-background-color: rgba(47, 48, 58, 0.8);
   --top-box-color: rgba(33, 150, 243, 0.9);
@@ -836,6 +837,48 @@ img {
   height: 581px;
   background-color: var(--background-color);
   border-radius: 5px;
+}
+
+.modal-form-field {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.modal-input-wrap {
+  position: relative;
+}
+
+.modal-input-text {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+  color: var(--title-text-color);
+}
+
+.modal-input {
+  width: 100%;
+  height: 58px;
+  border: 1px solid var(--input-form-border);
+  border-radius: 4px;
+  padding-left: 48px;
+  padding-right: 31px;
+  outline: none;
+  background-color: transparent;
+  transition: border-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus + .input-icon,
+.modal-input:hover + .input-icon
+ {
+    fill: var(--accent-text-color);
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+  transition: fill var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button {
