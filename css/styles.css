@@ -783,6 +783,16 @@ img {
 
 .online-input {
   background-color: transparent;
+  width: 358px;
+  height: 50px;
+  border: 1px solid var(--input-form-border);
+  border-radius: 4px;
+  outline: none;
+  /* padding-left: 25px; */
+  /* padding-right: 25px; */
+  background-color: transparent;
+  color: var(--title-text-color);
+  transition: border-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -803,6 +813,9 @@ img {
 
   background-color: var(--background-color);
   color: var(--title-text-color);
+
+  width: 200px;
+  height: 50px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
