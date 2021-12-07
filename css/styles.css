@@ -880,7 +880,7 @@ img {
   font-size: 12px;
   display: block;
   margin-bottom: 5px;
-  color: var(--title-text-color);
+  color: var(--logo-color);
 }
 
 .modal-input {
@@ -893,7 +893,7 @@ img {
   outline: none;
   background-color: transparent;
   transition: border-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--input-form-border);
+  color: var(--logo-color);
 }
 
 .modal-input:focus + .input-icon,
@@ -912,7 +912,7 @@ img {
     padding: 10px;
     resize: none;
     background-color: transparent;
-    color: teal;
+    color:var(--logo-color);
     transition: border-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
