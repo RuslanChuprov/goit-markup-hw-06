@@ -827,6 +827,12 @@ img {
 
 }
 
+.online-button-icon {
+  margin-left: 10px;
+  transition: fill var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 
 .backdrop {
   position: fixed;
