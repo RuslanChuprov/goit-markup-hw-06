@@ -705,6 +705,7 @@ img {
   font-style: normal;
   line-height: 1.7;
   display: block;
+  margin-bottom: 9px;
 }
 
 .bottom .logo {
@@ -969,6 +970,7 @@ img {
 
 .modal-check {
   display: flex;
+
 }
 
 .modal-check-text {
