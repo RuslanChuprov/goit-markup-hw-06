@@ -964,7 +964,30 @@ img {
   cursor: pointer;
   transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1),
   background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+}
 
+.modal-check {
+  display: flex;
+}
+
+.modal-check-text {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.modal-check-link {
+  color: var(--accent-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
 }
 
 .is-hidden {
