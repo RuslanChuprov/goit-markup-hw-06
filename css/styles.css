@@ -224,9 +224,7 @@ img {
 .phone-icon {
   fill: currentColor;
   margin-right: 10px;
-  transition: cubic-bezier(0.4, 0, 0.2, 1), 
-  cubic-bezier(0.4, 0, 0.2, 1); 
-  
+  transition: fill var(--time-duration)  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*--------------- Hero------*/
@@ -492,13 +490,17 @@ img {
   transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects .item:hover,
-.projects .item:focus {
+.project-wrap {
+  display: block;
+}
+
+.projects .project-wrap:hover,
+.projects .project-wrap:focus {
   box-shadow: 0 4px 4px 0 var(--button-shadow);
 }
 
-.projects .item:hover .project-top-text,
-.projects .item:focus .project-top-text {
+.projects .project-wrap:hover .project-top-text,
+.projects .project-wrap:focus .project-top-text {
   transform: translateY(0);
 }
 
@@ -850,9 +852,9 @@ img {
 }
 
 .modal-form {
-  top: 72px;
-  margin-top: 12px;
-  margin-bottom: 20px;
+  top: 102px;
+  /* margin-top: 12px; */
+  /* margin-bottom: 20px; */
 }
 
 .modal-form-field {
