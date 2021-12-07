@@ -217,7 +217,7 @@ img {
 .auth-nav .link:focus .mail-icon,
 .auth-nav .link:hover .phone-icon,
 .auth-nav .link:focus .phone-icon {
-  color: var(--accent-text-color);
+  fill: var(--accent-text-color);
 }
 
 .mail-icon,
