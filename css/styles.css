@@ -979,17 +979,29 @@ img {
 }
 
 .modal-check {
-  display: flex;
+  
 
 }
 
 .modal-check-text {
+  display: flex;
   color: var(--primary-text-color);
 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.modal-check-text span {
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--logo-color);
+    margin-right: 5px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-check-link {
@@ -1000,6 +1012,15 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
+}
+
+.modal-check:checked + .modal-check-text .icon-check {
+    fill: var(--accent-text-color);
+}
+
+
+.icon-check {
+  fill:transparent
 }
 
 .is-hidden {
