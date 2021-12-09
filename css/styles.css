@@ -794,7 +794,7 @@ img {
   /* padding-left: 25px; */
   /* padding-right: 25px; */
   background-color: transparent;
-  color: var(--title-text-color);
+  color: var(--accent-color);
   transition: border-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -813,6 +813,7 @@ img {
   border-radius: 4px;
   padding: 6px 22px;
   border: 0;
+  align-items: center;
 
   background-color: var(--accent-text-color);
   color: var(--accent-color);
@@ -924,6 +925,14 @@ img {
   transition: fill var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.icon-close {
+  transition: fill var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-close:hover {
+  fill: var(--accent-text-color);
+}
+
 .modal-close-button {
   position: absolute;
   top: 6px;
@@ -936,6 +945,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .modal-title {
