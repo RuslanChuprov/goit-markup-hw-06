@@ -894,7 +894,7 @@ img {
   border-radius: 4px;
   padding-left: 48px;
   padding-right: 31px;
-  /* outline: none; */
+  /* outline: none;  */
   background-color: transparent;
   transition: border-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--logo-color);
