@@ -1019,6 +1019,11 @@ input:-webkit-autofill:active {
   justify-content: center;
 }
 
+.modal-check:checked + .modal-check-text span {
+  background-color: var(--accent-color);
+  border: none;
+}
+
 .modal-check-link {
   color: var(--accent-text-color);
 
