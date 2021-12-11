@@ -948,12 +948,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button:hover,
 .modal-close-button:focus {
-  color: var(--accent-text-color);
+  fill: var(--accent-text-color);
 }
 
 .modal-title {
