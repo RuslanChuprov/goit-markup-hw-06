@@ -797,6 +797,12 @@ img {
   transition: border-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.online-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .online-title {
   color: var(--accent-color);
   margin-bottom: 20px;
