@@ -970,7 +970,7 @@ img {
 .modal-submit-button {
   display: block;
   border-radius: 4px;
-  padding: 10px 53px;
+  padding: 30px 53px;
   border: 0;
 
   background-color: var(--accent-text-color);
