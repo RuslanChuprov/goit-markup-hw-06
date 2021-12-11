@@ -1001,7 +1001,7 @@ input:-webkit-autofill:active {
 .modal-check-text {
   display: flex;
   color: var(--primary-text-color);
-
+  align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
