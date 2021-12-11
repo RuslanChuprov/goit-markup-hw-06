@@ -819,6 +819,7 @@ img {
   padding: 6px 22px;
   border: 0;
   margin-left: 12px;
+  justify-content: center;
   align-items: center;
 
   background-color: var(--accent-text-color);
@@ -863,7 +864,7 @@ img {
 }
 
 .modal-form {
-  margin: 75px 39px 164px 41px;
+  margin: 12px 39px 164px 41px;
   /* justify-content: center; */
 }
 
