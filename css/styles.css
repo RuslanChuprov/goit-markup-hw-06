@@ -814,6 +814,7 @@ img {
 }
 
 .online-button {
+  display: flex;
   border-radius: 4px;
   padding: 6px 22px;
   border: 0;
@@ -862,10 +863,8 @@ img {
 }
 
 .modal-form {
-  top: 102px;
-  justify-content: center;
-  /* margin-top: 12px; */
-  /* margin-bottom: 20px; */
+  margin: 75px 39px 164px 41px;
+  /* justify-content: center; */
 }
 
 .modal-form-field {
