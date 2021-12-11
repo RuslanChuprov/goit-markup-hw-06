@@ -988,7 +988,7 @@ input:-webkit-autofill:active {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  padding: 30px 53px;
+  /* padding: 30px 53px; */
   border: 0;
 
   background-color: var(--accent-text-color);
@@ -1006,7 +1006,8 @@ input:-webkit-autofill:active {
 }
 
 .modal-check {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .modal-check-text {
