@@ -869,6 +869,7 @@ input:-webkit-autofill:active {
   height: 581px;
   background-color: var(--background-color);
   border-radius: 5px;
+  margin-top: -75px;
 }
 
 .modal-form {
