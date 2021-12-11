@@ -808,7 +808,6 @@ img {
 }
 
 .online-button {
-  display: flex;
   border-radius: 4px;
   padding: 6px 22px;
   border: 0;
