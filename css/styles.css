@@ -948,10 +948,6 @@ input:-webkit-autofill:active {
   transition: fill var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-close:hover {
-  fill: currentColor;
-}
-
 .modal-close-button {
   position: absolute;
   top: 8px;
@@ -968,10 +964,9 @@ input:-webkit-autofill:active {
     border-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-button:hover,
-.modal-close-button:focus {
+.modal-close-button:hover .icon-close,
+.modal-close-button:focus .icon-close {
   fill: var(--accent-text-color);
-  border-color: var(--accent-text-color);
 }
 
 .modal-title {
@@ -1044,7 +1039,7 @@ input:-webkit-autofill:active {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-  padding-left: 5px;
+  margin-left: 5px;
 }
 
 .modal-check:checked + .modal-check-text .icon-check {
