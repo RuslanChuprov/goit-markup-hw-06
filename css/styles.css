@@ -890,10 +890,13 @@ input:-webkit-autofill:active {
 }
 
 .modal-input-text {
-  font-size: 12px;
   display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
   margin-bottom: 5px;
-  color: var(--logo-color);
+  color: var(--primary-text-color);
 }
 
 .modal-input {
@@ -998,7 +1001,7 @@ input:-webkit-autofill:active {
   cursor: pointer;
   transition: color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1),
     background-color var(--time-duration) cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 30px auto;
+  margin: auto;
 }
 
 .check-wrap {
@@ -1008,11 +1011,13 @@ input:-webkit-autofill:active {
 .modal-check-text {
   display: flex;
   color: var(--primary-text-color);
+  justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 
 .modal-check-text span {
