@@ -1036,9 +1036,17 @@ input:-webkit-autofill:active {
   justify-content: center;
 }
 
+.icon-check {
+  fill: transparent;
+}
+
 .modal-check:checked + .modal-check-text span {
   background-color: var(--accent-color);
   border: none;
+}
+
+.modal-check:checked + .modal-check-text .icon-check {
+  fill: var(--accent-text-color);
 }
 
 .modal-check-link {
@@ -1050,14 +1058,6 @@ input:-webkit-autofill:active {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   margin-left: 5px;
-}
-
-.modal-check:checked + .modal-check-text .icon-check {
-  fill: var(--accent-text-color);
-}
-
-.icon-check {
-  fill: transparent;
 }
 
 .is-hidden {
