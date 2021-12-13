@@ -1037,7 +1037,7 @@ input:-webkit-autofill:active {
   justify-content: center;
 }
 
-.icon-check {
+.modal-check .icon-check {
   fill: var(--accent-color);
 }
 
