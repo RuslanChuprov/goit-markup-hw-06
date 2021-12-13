@@ -1037,7 +1037,7 @@ input:-webkit-autofill:active {
 }
 
 .icon-check {
-  fill: transparent;
+  fill: var(--accent-color);
 }
 
 .modal-check:checked + .modal-check-text span {
