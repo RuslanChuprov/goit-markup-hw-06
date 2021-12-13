@@ -971,6 +971,7 @@ input:-webkit-autofill:active {
 .modal-close-button:hover .icon-close,
 .modal-close-button:focus .icon-close {
   fill: var(--accent-text-color);
+  border-color: var(--accent-color);
 }
 
 .modal-title {
@@ -1038,7 +1039,6 @@ input:-webkit-autofill:active {
 
 .icon-check {
   fill: var(--accent-color);
-  background-color: var(--accent-color);
 }
 
 .modal-check:checked + .modal-check-text span {
