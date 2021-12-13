@@ -873,7 +873,7 @@ input:-webkit-autofill:active {
 }
 
 .modal-form {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   /* justify-content: center; */
 }
 
@@ -974,6 +974,7 @@ input:-webkit-autofill:active {
 
 .modal-title {
   position: absolute;
+  display: block;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
