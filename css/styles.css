@@ -22,6 +22,7 @@
   --button-shadow: rgba(0, 0, 0, 0.25);
   --footer-social-link-color: rgba(255, 255, 255, 0.1);
   --input-form-border: rgba(33, 33, 33, 0.2);
+  --footer-form-border: rgba(255, 255, 255, 0.3;)
   --time-duration: 500ms;
   --features-background-color: rgba(47, 48, 58, 0.8);
   --top-box-color: rgba(33, 150, 243, 0.9);
@@ -718,10 +719,6 @@ input:-webkit-autofill:active {
   display: flex;
 }
 
-.bottom .down {
-  /* margin-bottom: 20px; */
-}
-
 .logo-footer {
   margin-bottom: 20px;
 }
@@ -795,7 +792,7 @@ input:-webkit-autofill:active {
   background-color: transparent;
   width: 358px;
   height: 50px;
-  border: 1px solid var(--input-form-border);
+  border: 1px solid var(--footer-form-border);
   border-radius: 4px;
   outline: none;
   /* padding-left: 25px; */
