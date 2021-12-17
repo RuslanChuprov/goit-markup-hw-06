@@ -1023,6 +1023,31 @@ input:-webkit-autofill:active {
   letter-spacing: 0.03em;
 }
 
+/* .modal-check-text span {
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--logo-color);
+  margin-right: 5px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .modal-check .icon-check {
+  fill: var(--background-color);
+  background-color: var(--background-color);
+} */
+
+/* .modal-check:checked + .modal-check-text span {
+  background-color: var(--accent-color);
+  border: none;
+} */
+
+/* .modal-check:checked + .modal-check-text .icon-check {
+  fill: var(--accent-text-color);
+} */
+
 .modal-check-text span {
   width: 16px;
   height: 15px;
@@ -1032,20 +1057,25 @@ input:-webkit-autofill:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: border-color 250ms;
+  cursor:pointer;
 }
-
 .modal-check .icon-check {
-  fill: var(--background-color);
-  background-color: var(--background-color);
+  fill: transparent;
+  background-color: transparent;
 }
-
 .modal-check:checked + .modal-check-text span {
   background-color: var(--accent-color);
   border: none;
 }
-
 .modal-check:checked + .modal-check-text .icon-check {
-  fill: var(--accent-text-color);
+  fill: var(--accent-color);
+  background-color: var(--accent-text-color);
+  border: transparent;
+}
+.modal-check-text span:hover,
+.modal-check:focus + .modal-check-text span {
+  border-color: var(--accent-text-color);
 }
 
 .modal-check-link {
